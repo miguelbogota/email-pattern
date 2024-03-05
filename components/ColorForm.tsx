@@ -1,5 +1,6 @@
 'use client';
 
+import data from '@/data/sellers.json' assert { type: 'json' };
 import { type ChangeEvent, useState, type FormEvent } from 'react';
 import LoadingSpinner from './LoadingSpinner';
 
@@ -78,20 +79,13 @@ const ColorForm = (props: ColorFormProps) => {
                 required
               >
                 <option value="">Select...</option>
-                <option value="65489">65489</option>
-                <option value="78901">78901</option>
-                <option value="87654">87654</option>
-                <option value="98765">98765</option>
-                <option value="56723">56723</option>
-                <option value="12345">12345</option>
-                <option value="23456">23456</option>
-                <option value="87654">87654</option>
-                <option value="34567">34567</option>
-                <option value="45678">45678</option>
-                <option value="98765">98765</option>
-                <option value="87654">87654</option>
-                <option value="23456">23456</option>
-                <option value="34567">34567</option>
+                {data.map((seller) =>
+                  seller.items.map((item) => (
+                    <option key={item.id} value={item.id}>
+                      {item.id}
+                    </option>
+                  )),
+                )}
               </select>
             </div>
             <div className="mb-4">
