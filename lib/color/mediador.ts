@@ -14,7 +14,7 @@ export class ColorMediator {
   public changeColor(fromColor: ColorResolver, toColor: ColorResolver): OptionalColorResult {
     // Increase the color level.
     if (fromColor.level < toColor.level) {
-      return toColor.increase(toColor.level, this.item);
+      return fromColor.increase(toColor.level, this.item);
     }
 
     // Decrease the color level.
