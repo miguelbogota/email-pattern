@@ -1,0 +1,122 @@
+[
+  {
+    "id": "87236",
+    "site": "MLA",
+    "items": [
+      {
+        "id": "65489",
+        "name": "Smartphone",
+        "quantity": 3
+      },
+      {
+        "id": "78901",
+        "name": "Laptop",
+        "quantity": 1
+      },
+      {
+        "id": "98765",
+        "name": "Smartwatch",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "93214",
+    "site": "MLB",
+    "items": [
+      {
+        "id": "56723",
+        "name": "Headphones",
+        "quantity": 2
+      },
+      {
+        "id": "12345",
+        "name": "Bluetooth Speaker",
+        "quantity": 5
+      },
+      {
+        "id": "87654",
+        "name": "Gaming Console",
+        "quantity": 1
+      },
+      {
+        "id": "23456",
+        "name": "4K TV",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "45321",
+    "site": "MCO",
+    "items": [
+      {
+        "id": "87654",
+        "name": "Cámara Digital",
+        "quantity": 4
+      },
+      {
+        "id": "34567",
+        "name": "Refrigeradora",
+        "quantity": 1
+      },
+      {
+        "id": "45678",
+        "name": "Licuadora",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "78901",
+    "site": "MLA",
+    "items": [
+      {
+        "id": "98765",
+        "name": "Digital Camera",
+        "quantity": 2
+      },
+      {
+        "id": "87654",
+        "name": "Printer",
+        "quantity": 1
+      },
+      {
+        "id": "23456",
+        "name": "External Hard Drive",
+        "quantity": 4
+      },
+      {
+        "id": "34567",
+        "name": "Wireless Mouse",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "78201",
+    "site": "CBT",
+    "items": [
+      {
+        "id": "98655",
+        "name": "Digital Camera",
+        "quantity": 2
+      },
+      {
+        "id": "87234",
+        "name": "Printer",
+        "quantity": 1
+      },
+      {
+        "id": "23126",
+        "name": "External Hard Drive",
+        "quantity": 4
+      },
+      {
+        "id": "34667",
+        "name": "Wireless Mouse",
+        "quantity": 2
+      }
+    ]
+  }
+]

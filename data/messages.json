@@ -1,0 +1,23 @@
+{
+  "en": {
+    "email": {
+      "lost_exposition": "Your item {{itemId}} had lost exposition in the marketplace, it will no longer visible anymore.",
+      "losing_exposition": "Your item {{itemId}} is losing exposition in the marketplace, you should better your cancel / claim  rates and improve the buyer experience in order to be available in the marketplace, otherwise your item will not be visible anymore.",
+      "lost_exposition_warned": "Your previously warned item {{itemId}} had been lost exposition in the marketplace definitively, it will no longer visible anymore."
+    }
+  },
+  "es": {
+    "email": {
+      "lost_exposition": "Tu item {{itemId}} ha perdido exposición en el sitio, ya no será visible para ningún comprador.",
+      "losing_exposition": "Tu item {{itemId}} está perdiendo exposición en el sitio, si no se reduce el número de cancelaciones, devoluciones o reclamos de este ítem ya no será visible para ningún comprador en el futuro",
+      "lost_exposition_warned": "Tu item que traía problemas {{itemId}} ha perdido exposición en el sitio definitivamente y ya no será visible para ningún comprador."
+    }
+  },
+  "pt": {
+    "email": {
+      "lost_exposition": "Seu item {{itemId}} perdeu exposição no site, não estará mais visível para nenhum comprador.",
+      "losing_exposition": "Seu item {{itemId}} está perdendo exposição no site, caso o número de cancelamentos, devoluções ou reclamações não seja reduzido, este item não estará mais visível para nenhum comprador no futuro.",
+      "lost_exposition_warned": "Seu item que estava causando problemas no {{itemId}} perdeu permanentemente a exposição no site e não estará mais visível para nenhum comprador."
+    }
+  }
+}
